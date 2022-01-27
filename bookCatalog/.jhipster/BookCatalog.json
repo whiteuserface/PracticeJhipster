@@ -1,0 +1,40 @@
+{
+  "changelogDate": "20220127032315",
+  "clientRootFolder": "bookCatalog",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "author",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "bookId",
+      "fieldType": "Long",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "rentCnt",
+      "fieldType": "Long",
+      "fieldValidateRules": []
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "bookCatalog",
+  "name": "BookCatalog",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
